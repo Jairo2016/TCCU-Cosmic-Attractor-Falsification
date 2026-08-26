@@ -44,3 +44,8 @@ python TCCU-Cosmic-Attractor/auditoria_integridad.py
 Ver `CITATION.cff` o: González Navia, J. O. & AutoClaw (2026). *Falsación
 Sistemática del Atractor Cósmico TCCU como Mecanismo de Sector Oscuro
 Unificado* (v1.0). DOI: [10.5281/zenodo.22111843](https://doi.org/10.5281/zenodo.22111843)
+
+
+## Actualizacion 2026-08-26 (ciclos 135-136)
+
+Ver `manuscript/ACTUALIZACION_CICLOS_135_136.md`: expansion parametrica (200 configs, 0 F2a, dN_max 0.36) y DBI/cinetica pura con el primer DeltaN>=4 del programa (F2 35/180 con CI near-bound, dN_max 4.75; 0/180 con CI genericas).
