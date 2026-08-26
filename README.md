@@ -1,5 +1,7 @@
 # TCCU-Cosmic-Attractor-Falsification v1.0
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22111843.svg)](https://doi.org/10.5281/zenodo.22111843)
+
 **Falsación Sistemática del Atractor Cósmico TCCU como Mecanismo de Sector
 Oscuro Unificado** — Un Estudio Computacional Reproducible de Tracking Tipo
 Polvo, Atrapamiento Dinámico y Dependencia de las Condiciones Iniciales.
@@ -41,4 +43,4 @@ python TCCU-Cosmic-Attractor/auditoria_integridad.py
 
 Ver `CITATION.cff` o: González Navia, J. O. & AutoClaw (2026). *Falsación
 Sistemática del Atractor Cósmico TCCU como Mecanismo de Sector Oscuro
-Unificado* (v1.0). DOI pendiente de asignación.
+Unificado* (v1.0). DOI: [10.5281/zenodo.22111843](https://doi.org/10.5281/zenodo.22111843)
