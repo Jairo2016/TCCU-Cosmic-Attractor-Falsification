@@ -1,0 +1,22 @@
+{
+  "modelo": "TCCU-Cosmic-Attractor",
+  "version": "v4.1",
+  "potencial": "exponencial lam=5 (congelado)",
+  "xi": "12 valores",
+  "rejilla": {
+    "xi": "[-0.20..0.20] (12)",
+    "Lambda": "[0.05..1.0] (9)"
+  },
+  "F2": {
+    "eps_w": 0.05,
+    "eps_rho": 0.05,
+    "DeltaN_min": 4.0,
+    "a<1": true
+  },
+  "filtros": {
+    "M4-1": "F>0, A>0",
+    "M4-2": "Q_s>0, c_s2_full in (0,1]",
+    "M4-3": "G_eff y Gdot_G"
+  },
+  "n_configuraciones": 108
+}

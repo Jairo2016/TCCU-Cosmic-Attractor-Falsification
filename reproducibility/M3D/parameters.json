@@ -1,0 +1,18 @@
+{
+  "modelo": "TCCU-Cosmic-Attractor",
+  "version": "v4.1",
+  "potencial": "meseta + doble-exponencial",
+  "xi": 0.0,
+  "rejilla": {
+    "meseta_lam": "[1,2,3,5,8]",
+    "doble_exp": "3x3",
+    "Lambda": "[0.15,0.3,0.5]"
+  },
+  "F2": {
+    "eps_w": 0.05,
+    "eps_rho": 0.05,
+    "DeltaN_min": 4.0,
+    "a<1": true
+  },
+  "n_configuraciones": 24
+}

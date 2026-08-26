@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Como citar este trabajo (CITAR COMO):"
+title: "Falsación Sistemática del Atractor Cósmico TCCU como Mecanismo de Sector Oscuro Unificado: Un Estudio Computacional Reproducible de Tracking Tipo Polvo, Atrapamiento Dinámico y Dependencia de las Condiciones Iniciales"
+authors:
+  - family-names: "González Navia"
+    given-names: "Jairo Omar"
+    orcid: ""
+  - family-names: "AutoClaw"
+    given-names: ""
+    orcid: ""
+date-released: 2026-08-25
+version: "v1.0"
+doi: "PENDIENTE (asignar en depósito)"
+license: "CC-BY-4.0"
+keywords:
+  - "cosmología"
+  - "k-essence"
+  - "materia oscura"
+  - "falsación"
+  - "reproducibilidad"
+  - "TCCU"
+abstract: "Falsación computacional sistemática del mecanismo DM-like del Atractor Cósmico TCCU: 850 configuraciones evaluadas, 0 F2 sostenido, dentro del dominio de modelos y condiciones iniciales explorado. Falsación de espacio de modelos, no observacional."

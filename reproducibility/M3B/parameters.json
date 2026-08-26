@@ -1,0 +1,19 @@
+{
+  "modelo": "TCCU-Cosmic-Attractor",
+  "version": "v4.1",
+  "potencial": "exponencial V0 e^{-lambda phi}",
+  "xi": 0.0,
+  "Lambda": 0.15,
+  "V0": 1.0,
+  "rejilla": {
+    "alpha": "[2,10] paso 0.5 (17)",
+    "lambda": "[0.5,3] paso 0.1 (26)"
+  },
+  "F2": {
+    "eps_w": 0.05,
+    "eps_rho": 0.05,
+    "DeltaN_min": 4.0,
+    "a<1": true
+  },
+  "n_configuraciones": 442
+}
