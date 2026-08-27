@@ -49,3 +49,7 @@ Unificado* (v1.0). DOI: [10.5281/zenodo.22111843](https://doi.org/10.5281/zenodo
 ## Actualizacion 2026-08-26 (ciclos 135-136)
 
 Ver `manuscript/ACTUALIZACION_CICLOS_135_136.md`: expansion parametrica (200 configs, 0 F2a, dN_max 0.36) y DBI/cinetica pura con el primer DeltaN>=4 del programa (F2 35/180 con CI near-bound, dN_max 4.75; 0/180 con CI genericas).
+
+## Actualizacion 2026-08-26 (ciclos 137-138)
+
+Ver `manuscript/ACTUALIZACION_CICLOS_137_138.md`: DBI + acoplamiento no minimo (0/200 candidatas con eps0>1e-8, 56% inestabilidad de gradiente) y perturbaciones del DBI puro (crecimiento CDM en la ventana; eps0 ~ 5e-23 para cubrir la era de materia; sector oscuro unificado tipo Chaplygin constrenido).
