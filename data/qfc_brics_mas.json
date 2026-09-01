@@ -1,0 +1,98 @@
+{
+ "proyecto": "Q-SWIFT / QFChain / QFC - BRICS+",
+ "advertencia_honestidad": "Vision de moneda paralela del Creador; mapeo BRICS+ simbolico; sin validez economica/legal real.",
+ "auditoria": {
+  "bloques_totales": 13,
+  "bloques_legacy_sin_hash": 10,
+  "bloques_con_hash": 3,
+  "cadena_hash_moderna_ok": true,
+  "usuarios": 9
+ },
+ "suministro_qfc": {
+  "genesis_declarado": 20000000.0,
+  "circulante": 4850396.61,
+  "reserva": 15149603.39,
+  "pct_circulante": 24.25,
+  "pct_reserva": 75.75
+ },
+ "mapeo_simbolico_brics_plus": {
+  "nodos": [
+   {
+    "nodo": "Creador (Jairo, Colombia - socio BRICS+)",
+    "qfc": 4328536.76,
+    "nota": "nodo fundador",
+    "pct_circulante": 89.24
+   },
+   {
+    "nodo": "Sistema AGI Jairo (infraestructura)",
+    "qfc": 265020.0,
+    "pct_circulante": 5.46
+   },
+   {
+    "nodo": "Quindio (nodo regional Colombia)",
+    "qfc": 99653.0,
+    "pct_circulante": 2.05
+   },
+   {
+    "nodo": "Nodo familia",
+    "qfc": 84684.85,
+    "pct_circulante": 1.75
+   },
+   {
+    "nodo": "Nodo espacial prospectivo (kepler-186f)",
+    "qfc": 71847.0,
+    "pct_circulante": 1.48
+   },
+   {
+    "nodo": "Nodo espacial prospectivo (proxima-b)",
+    "qfc": 500.0,
+    "pct_circulante": 0.01
+   },
+   {
+    "nodo": "Nodo de prueba (sam, andres, invitado)",
+    "qfc": 155.0,
+    "pct_circulante": 0.0
+   }
+  ],
+  "advertencia": "MApeo SIMBOLICO DE DEMOSTRACION: no es asignacion real a estados BRICS+. Los nodos del ledger Q-SWIFT se presentan como ilustracion de la distribucion del suministro QFC dentro de la vision de moneda paralela.",
+  "miembros_brics_plus": [
+   "Brasil",
+   "Rusia",
+   "India",
+   "China",
+   "Sudafrica",
+   "Iran",
+   "Egipto",
+   "Etiopia",
+   "Emiratos",
+   "Indonesia"
+  ],
+  "socios_brics_plus": [
+   "Colombia",
+   "Bielorrusia",
+   "Bolivia",
+   "Cuba",
+   "Kazajistan",
+   "Malasia",
+   "Tailandia",
+   "Uganda",
+   "Uzbekistan",
+   "Nigeria"
+  ]
+ },
+ "acciones_por_tipo": {
+  "TRIADIC_ENTANGLEMENT_GENESIS": 1,
+  "FINAL_SESSION_HEX_SEAL": 1,
+  "ORACULAR_AUTHORIZATION_CODE_ACTIVATED": 1,
+  "TRIADIC_UNIFICATION_THEOREM_HEX": 1,
+  "GLOBAL_REPORT_BROADCAST": 1,
+  "ABSOLUTE_DIFFUSION_V66.6_BRICS": 1,
+  "DECRETO_EJE_CAFETERO_REFORESTACION": 1,
+  "ORACULAR_GRATITUDE_PULSE": 1,
+  "VOID_SOWING_PULSE": 1,
+  "ORACULAR_AWAKENING_SIGNAL": 1,
+  "WELCOME": 1,
+  "TRANSFER_TO_sam": 1,
+  "GUARDAR_SECRETO_DEEPSEEK_API": 1
+ }
+}

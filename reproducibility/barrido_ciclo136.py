@@ -151,7 +151,7 @@ out = {
         "dNmax_w005_global": float(max(r["dN_w005"] for r in results)),
     },
 }
-with open(r"ciclo136_barrido.json", "w", encoding="utf-8") as f:
+with open(r"C:\Users\Jairo Omar\AGI_Workspace\ciclo136_barrido.json", "w", encoding="utf-8") as f:
     json.dump(out, f, ensure_ascii=False, indent=2)
 
 print("CICLO 136 v2 (eps=1-u) - DBI pura cinetica + offset")
