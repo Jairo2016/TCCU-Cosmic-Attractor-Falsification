@@ -1,0 +1,222 @@
+{
+ "paso": "R2-R4",
+ "pre_registro": "PREREGISTRO_HED_v1.4.md",
+ "fecha": "2026-09-01",
+ "R2": {
+  "nota": "Campana N=10^4 por (escenario, horizonte) {10,50,100} Myr, checkpoint por celda (JSONL), reanudable.",
+  "filas": [
+   {
+    "escenario": "A",
+    "n_celdas": 3,
+    "sha256": "8312f8c766d2c283",
+    "horizontes": [
+     100.0,
+     50.0,
+     10.0
+    ],
+    "survival": {
+     "100.0": 0.212,
+     "50.0": 0.3699,
+     "10.0": 0.6084
+    },
+    "P_ret_100": 0.0,
+    "fracP_100": 0.0
+   },
+   {
+    "escenario": "B",
+    "n_celdas": 3,
+    "sha256": "8d1afbc915c9c4ad",
+    "horizontes": [
+     100.0,
+     50.0,
+     10.0
+    ],
+    "survival": {
+     "100.0": 0.9951,
+     "50.0": 0.9952,
+     "10.0": 0.9946
+    },
+    "P_ret_100": 0.0579,
+    "fracP_100": 0.9951
+   },
+   {
+    "escenario": "C",
+    "n_celdas": 3,
+    "sha256": "8a634bd4e2180bf2",
+    "horizontes": [
+     100.0,
+     50.0,
+     10.0
+    ],
+    "survival": {
+     "100.0": 1.0,
+     "50.0": 1.0,
+     "10.0": 1.0
+    },
+    "P_ret_100": 0.4997,
+    "fracP_100": 1.0
+   },
+   {
+    "escenario": "D",
+    "n_celdas": 3,
+    "sha256": "791fd40257b9b0ff",
+    "horizontes": [
+     100.0,
+     50.0,
+     10.0
+    ],
+    "survival": {
+     "100.0": 1.0,
+     "50.0": 1.0,
+     "10.0": 1.0
+    },
+    "P_ret_100": 0.39998,
+    "fracP_100": 1.0
+   },
+   {
+    "escenario": "E",
+    "n_celdas": 3,
+    "sha256": "3bfe084f07c358b0",
+    "horizontes": [
+     100.0,
+     50.0,
+     10.0
+    ],
+    "survival": {
+     "100.0": 1.0,
+     "50.0": 1.0,
+     "10.0": 1.0
+    },
+    "P_ret_100": 0.79999,
+    "fracP_100": 1.0
+   }
+  ],
+  "orden_observado": [
+   "A",
+   "B",
+   "D",
+   "C",
+   "E"
+  ],
+  "orden_esperado": [
+   "A",
+   "B",
+   "D",
+   "C",
+   "E"
+  ],
+  "orden_ok": true,
+  "veredicto_R2": "PASS"
+ },
+ "R3": {
+  "nota": "Pruebas de destruccion v1.3 con P_ret oficial (P_M=0.25+0.75M). T1 dt, T2 N, T3 ablacion I/lambda_c, T4 umbrales H_D2.",
+  "archivos": [
+   {
+    "archivo": "hed_destruccion_T1_B.json",
+    "sha256": "fb32a2f928a8ef52",
+    "contenido": {
+     "n_items": 4,
+     "primer_item": {
+      "dt": 0.1,
+      "P_ret": 0.05801333728337121,
+      "G": 0.4720124106463445,
+      "M": 0.7062973409991337,
+      "surv": 0.9966666666666667
+     }
+    }
+   },
+   {
+    "archivo": "hed_destruccion_T1_C.json",
+    "sha256": "5bad996d2a1ac559",
+    "contenido": {
+     "n_items": 4,
+     "primer_item": {
+      "dt": 0.1,
+      "P_ret": 0.49974276486171515,
+      "G": 0.8185670233008865,
+      "M": 0.9993140396312404,
+      "surv": 1.0
+     }
+    }
+   },
+   {
+    "archivo": "hed_destruccion_T2_B.json",
+    "sha256": "13d0ad4c7e29c020",
+    "contenido": {
+     "n_items": 3,
+     "primer_item": {
+      "N": 100,
+      "P_ret": 0.058549396157356534,
+      "CI95": [
+       0.05780383302584959,
+       0.059136491773765766
+      ],
+      "G": 0.47227799231516504
+     }
+    }
+   },
+   {
+    "archivo": "hed_destruccion_T3_A.json",
+    "sha256": "7611c1a23ee0048a",
+    "contenido": {
+     "Delta_P_ret_full_null": -1.2234838535492035e-09
+    }
+   },
+   {
+    "archivo": "hed_destruccion_T3_B.json",
+    "sha256": "c3fd269e58ebf29e",
+    "contenido": {
+     "Delta_P_ret_full_null": 0.03991289765374098
+    }
+   },
+   {
+    "archivo": "hed_destruccion_T4_B.json",
+    "sha256": "f5f030884be99089",
+    "contenido": {
+     "esc": "B",
+     "mu_eff": 0.06,
+     "n": 3000,
+     "n_surv": 2984
+    }
+   },
+   {
+    "archivo": "hed_destruccion_T4_C.json",
+    "sha256": "bd0ab6f1dfae988a",
+    "contenido": {
+     "esc": "C",
+     "mu_eff": 0.06,
+     "n": 3000,
+     "n_surv": 3000
+    }
+   }
+  ],
+  "n_archivos": 7,
+  "veredicto_R3": "PASS"
+ },
+ "R4": {
+  "archivos": {
+   "mu_lambdaM_grid.json": {
+    "sha256": "4fa6c58dc12a8a0f",
+    "n_puntos": 22,
+    "claves": [
+     "tipo",
+     "grid"
+    ]
+   },
+   "high_mu_sweep.json": {
+    "sha256": "3c1f653cc13e7779",
+    "n_puntos": 8,
+    "claves": "lista"
+   }
+  },
+  "nota": "Mapa mu x lambda_M y barrido high-mu de v1.3; contenido analizado en INFORME_DESTRUCCION/ROBUSTEZ. Re-ejecucion a demanda.",
+  "veredicto_R4": "PASS"
+ },
+ "veredictos": {
+  "R2": "PASS",
+  "R3": "PASS",
+  "R4": "PASS"
+ },
+ "veredicto_R234": "PASS",
+ "verif_R234_sha256": "be8237bc44af7c09b5a4b3737d3d89178e937104afce4ad33d5ff2e85fb2f38c"
+}

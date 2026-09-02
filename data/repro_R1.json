@@ -1,0 +1,462 @@
+{
+ "paso": "R1",
+ "pre_registro": "PREREGISTRO_HED_v1.4.md",
+ "fecha": "2026-09-01",
+ "hashes": {
+  "tccu_hed_v1_3.py": "d901feb8099e92c4c7e7789c3aefcd870dee298ad22f5cdf368f64723f35ad48",
+  "summary_v1_3.json": "53e8307e1decaee1e2f940c9dcfe4c8342350cc21ffbd1054d9cfceba891d34c"
+ },
+ "config": {
+  "N": 80,
+  "t_max_myr": 100.0,
+  "dt_myr": 0.025,
+  "checkpoints": [
+   10,
+   25,
+   50,
+   75,
+   100
+  ]
+ },
+ "resultados": {
+  "A": {
+   "scenario": "A",
+   "name": "A — Conservador",
+   "n_realizations": 80,
+   "t_max_myr": 100.0,
+   "survival_rate": 0.2875,
+   "mean_final_N": 8.625,
+   "mean_final_E": 0.468428124999967,
+   "mean_final_G": 0.46291167340464023,
+   "mean_final_D": 1.264595625000045,
+   "mean_final_M": 0.20806585727905116,
+   "mean_final_I": 0.3007686867079589,
+   "mean_final_P_ret": 3.940798323721041e-07,
+   "frac_P_ret_gt_1e-3": 0.0,
+   "frac_P_ret_gt_1e-6": 0.125,
+   "descent_fractions": {
+    "H_D3": 0.4125,
+    "H_D1": 0.5875
+   },
+   "checkpoints": {
+    "10.0": {
+     "mean_G": 0.8129997040474807,
+     "mean_M": 0.38669427187547195,
+     "mean_P_ret": 2.6885578259337926e-06,
+     "frac_P_gt_1e-3": 0.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "25.0": {
+     "mean_G": 0.6610926032623263,
+     "mean_M": 0.23308637168626634,
+     "mean_P_ret": 2.5332890383716016e-06,
+     "frac_P_gt_1e-3": 0.0,
+     "class_fractions": {
+      "H_D3": 0.725,
+      "H_D1": 0.275
+     }
+    },
+    "50.0": {
+     "mean_G": 0.5321424661377081,
+     "mean_M": 0.209221147557981,
+     "mean_P_ret": 1.9494588583895756e-07,
+     "frac_P_gt_1e-3": 0.0,
+     "class_fractions": {
+      "H_D3": 0.4125,
+      "H_D1": 0.5875
+     }
+    },
+    "75.0": {
+     "mean_G": 0.4838535627776513,
+     "mean_M": 0.20809209496007303,
+     "mean_P_ret": 1.2884467757523212e-09,
+     "frac_P_gt_1e-3": 0.0,
+     "class_fractions": {
+      "H_D3": 0.4125,
+      "H_D1": 0.5875
+     }
+    },
+    "100.0": {
+     "mean_G": 0.4629247110737479,
+     "mean_M": 0.2080658407713623,
+     "mean_P_ret": 1.3105730840370687e-09,
+     "frac_P_gt_1e-3": 0.0,
+     "class_fractions": {
+      "H_D3": 0.4125,
+      "H_D1": 0.5875
+     }
+    }
+   }
+  },
+  "B": {
+   "scenario": "B",
+   "name": "B — Intermedio",
+   "n_realizations": 80,
+   "t_max_myr": 100.0,
+   "survival_rate": 0.9875,
+   "mean_final_N": 969.175,
+   "mean_final_E": 9.87793750000015,
+   "mean_final_G": 0.4788394105533861,
+   "mean_final_D": 0.7408453125000211,
+   "mean_final_M": 0.7127069258622166,
+   "mean_final_I": 7.028853439898796,
+   "mean_final_P_ret": 0.05766664151495708,
+   "frac_P_ret_gt_1e-3": 0.9875,
+   "frac_P_ret_gt_1e-6": 0.9875,
+   "descent_fractions": {
+    "H_D3": 1.0
+   },
+   "checkpoints": {
+    "10.0": {
+     "mean_G": 0.928611585891607,
+     "mean_M": 0.7504223174701845,
+     "mean_P_ret": 0.001810164100476471,
+     "frac_P_gt_1e-3": 0.95,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "25.0": {
+     "mean_G": 0.8311311473453056,
+     "mean_M": 0.6362060814612583,
+     "mean_P_ret": 0.007504323906116753,
+     "frac_P_gt_1e-3": 0.9875,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "50.0": {
+     "mean_G": 0.6911630559482406,
+     "mean_M": 0.6983869446551244,
+     "mean_P_ret": 0.026031032976655943,
+     "frac_P_gt_1e-3": 0.9875,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "75.0": {
+     "mean_G": 0.5751254325639389,
+     "mean_M": 0.7158228599131773,
+     "mean_P_ret": 0.04302486441116417,
+     "frac_P_gt_1e-3": 0.9875,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "100.0": {
+     "mean_G": 0.4789268639739025,
+     "mean_M": 0.7127100067748394,
+     "mean_P_ret": 0.05766664151495708,
+     "frac_P_gt_1e-3": 0.9875,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    }
+   }
+  },
+  "C": {
+   "scenario": "C",
+   "name": "C — Tecnológico",
+   "n_realizations": 80,
+   "t_max_myr": 100.0,
+   "survival_rate": 1.0,
+   "mean_final_N": 4947.8375,
+   "mean_final_E": 100.02500000000563,
+   "mean_final_G": 0.8186898175637356,
+   "mean_final_D": 0.20004999999998613,
+   "mean_final_M": 0.9993074380518017,
+   "mean_final_I": 17.186487262491283,
+   "mean_final_P_ret": 0.4997246445760785,
+   "frac_P_ret_gt_1e-3": 1.0,
+   "frac_P_ret_gt_1e-6": 1.0,
+   "descent_fractions": {
+    "H_D3": 1.0
+   },
+   "checkpoints": {
+    "10.0": {
+     "mean_G": 0.9801986733067553,
+     "mean_M": 0.9913984332090491,
+     "mean_P_ret": 0.0729424318130381,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "25.0": {
+     "mean_G": 0.9512294245007131,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.30972540270760984,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "50.0": {
+     "mean_G": 0.9048374180359622,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.5,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "75.0": {
+     "mean_G": 0.8607079764250651,
+     "mean_M": 0.9961942045175565,
+     "mean_P_ret": 0.49857282669408376,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "100.0": {
+     "mean_G": 0.8187307530779933,
+     "mean_M": 0.9992796179897935,
+     "mean_P_ret": 0.4997246445760785,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    }
+   }
+  },
+  "D": {
+   "scenario": "D",
+   "name": "D — Postbiológico",
+   "n_realizations": 80,
+   "t_max_myr": 100.0,
+   "survival_rate": 1.0,
+   "mean_final_N": 9990.975,
+   "mean_final_E": 200.05000000001127,
+   "mean_final_G": 0.9704382552342989,
+   "mean_final_D": 0.030007500000001526,
+   "mean_final_M": 1.0,
+   "mean_final_I": 41.64010680297139,
+   "mean_final_P_ret": 0.39999999999999997,
+   "frac_P_ret_gt_1e-3": 1.0,
+   "frac_P_ret_gt_1e-6": 1.0,
+   "descent_fractions": {
+    "H_D3": 1.0
+   },
+   "checkpoints": {
+    "10.0": {
+     "mean_G": 0.9970044955033728,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.2000000000000015,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "25.0": {
+     "mean_G": 0.9925280548191384,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.39999999999999997,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "50.0": {
+     "mean_G": 0.9851119396030621,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.39999999999999997,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "75.0": {
+     "mean_G": 0.9777512371933355,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.39999999999999997,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "100.0": {
+     "mean_G": 0.9704455335485067,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.39999999999999997,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    }
+   }
+  },
+  "E": {
+   "scenario": "E",
+   "name": "E — Retorno",
+   "n_realizations": 80,
+   "t_max_myr": 100.0,
+   "survival_rate": 1.0,
+   "mean_final_N": 9991.175,
+   "mean_final_E": 200.05000000001127,
+   "mean_final_G": 0.9704382552342989,
+   "mean_final_D": 0.030007500000001526,
+   "mean_final_M": 1.0,
+   "mean_final_I": 42.54632876161986,
+   "mean_final_P_ret": 0.7999999999999999,
+   "frac_P_ret_gt_1e-3": 1.0,
+   "frac_P_ret_gt_1e-6": 1.0,
+   "descent_fractions": {
+    "H_D3": 1.0
+   },
+   "checkpoints": {
+    "10.0": {
+     "mean_G": 0.9970044955033728,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.39843746430924004,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "25.0": {
+     "mean_G": 0.9925280548191384,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.7999999999999999,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "50.0": {
+     "mean_G": 0.9851119396030621,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.7999999999999999,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "75.0": {
+     "mean_G": 0.9777512371933355,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.7999999999999999,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    },
+    "100.0": {
+     "mean_G": 0.9704455335485067,
+     "mean_M": 1.0,
+     "mean_P_ret": 0.7999999999999999,
+     "frac_P_gt_1e-3": 1.0,
+     "class_fractions": {
+      "H_D3": 1.0
+     }
+    }
+   }
+  }
+ },
+ "comparacion": {
+  "A": {
+   "P_ret_ref": 3.940798323721041e-07,
+   "P_ret_repro": 3.940798323721041e-07,
+   "P_ret_IC95": [
+    2.258545859785213e-07,
+    6.032761414009787e-07
+   ],
+   "P_ret_dentro_IC": true,
+   "surv_ref": 0.2875,
+   "surv_repro": 0.2875,
+   "surv_ok": true,
+   "clases_ref": {
+    "H_D3": 0.4125,
+    "H_D1": 0.5875
+   },
+   "clases_repro": {
+    "H_D3": 0.4125,
+    "H_D1": 0.5875
+   }
+  },
+  "B": {
+   "P_ret_ref": 0.05766664151495708,
+   "P_ret_repro": 0.05766664151495708,
+   "P_ret_IC95": [
+    0.055660444494555865,
+    0.059079609770740504
+   ],
+   "P_ret_dentro_IC": true,
+   "surv_ref": 0.9875,
+   "surv_repro": 0.9875,
+   "surv_ok": true,
+   "clases_ref": {
+    "H_D3": 1.0
+   },
+   "clases_repro": {
+    "H_D3": 1.0
+   }
+  },
+  "C": {
+   "P_ret_ref": 0.4997246445760785,
+   "P_ret_repro": 0.4997246445760785,
+   "P_ret_IC95": [
+    0.4991791458983295,
+    0.5
+   ],
+   "P_ret_dentro_IC": true,
+   "surv_ref": 1.0,
+   "surv_repro": 1.0,
+   "surv_ok": true,
+   "clases_ref": {
+    "H_D3": 1.0
+   },
+   "clases_repro": {
+    "H_D3": 1.0
+   }
+  },
+  "D": {
+   "P_ret_ref": 0.39999999999999997,
+   "P_ret_repro": 0.39999999999999997,
+   "P_ret_IC95": [
+    0.39999999999999997,
+    0.39999999999999997
+   ],
+   "P_ret_dentro_IC": true,
+   "surv_ref": 1.0,
+   "surv_repro": 1.0,
+   "surv_ok": true,
+   "clases_ref": {
+    "H_D3": 1.0
+   },
+   "clases_repro": {
+    "H_D3": 1.0
+   }
+  },
+  "E": {
+   "P_ret_ref": 0.7999999999999999,
+   "P_ret_repro": 0.7999999999999999,
+   "P_ret_IC95": [
+    0.7999999999999999,
+    0.7999999999999999
+   ],
+   "P_ret_dentro_IC": true,
+   "surv_ref": 1.0,
+   "surv_repro": 1.0,
+   "surv_ok": true,
+   "clases_ref": {
+    "H_D3": 1.0
+   },
+   "clases_repro": {
+    "H_D3": 1.0
+   }
+  }
+ },
+ "veredictos_por_escenario": {
+  "A": "PASS",
+  "B": "PASS",
+  "C": "PASS",
+  "D": "PASS",
+  "E": "PASS"
+ },
+ "veredicto_R1": "PASS",
+ "nota": "Ningun PASS individual valida; R1 es reproducibilidad del bloque v1.3.",
+ "repro_R1_sha256": "9e4cbf617e6f02297ec82e793422881f7d6a4bf21069c6b57ec351c31d5441e5"
+}

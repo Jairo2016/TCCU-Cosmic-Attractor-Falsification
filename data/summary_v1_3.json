@@ -1,0 +1,843 @@
+{
+  "version": "1.3",
+  "methodological_note": "HED-F only. Simulación ≠ evidencia de descendientes reales. G_ancestry = exp(-D_genetic) es índice auxiliar, no filogenia.",
+  "success_criteria_a_priori": {
+    "mathematical": "Convergencia sin inestabilidades artificiales (N≥0, M∈[0,1], G∈[0,1])",
+    "physical": "Ningún escenario usa v_e ≥ c ni energías imposibles",
+    "statistical_stability": "Resultados estables al aumentar N_MC (aquí 80–200 según bloque)",
+    "sensitivity": "Conclusiones sobreviven a cambios razonables de parámetros",
+    "falsifiability": {
+      "F_region": "Existe región θ donde P_ret ≈ 0 (modelo no permisivo total)",
+      "P_region": "Existe región θ donde P_ret > 10^{-3} (retorno no imposible)"
+    },
+    "thresholds": {
+      "P_ret_interesting": 1e-06,
+      "P_ret_plausible": 0.001,
+      "G_crit": 0.05,
+      "M_crit": 0.05,
+      "D_genetic_detectable": 3.0
+    }
+  },
+  "hypotheses": {
+    "H_D": "Descendencia causal desde población humana terrestre (civilizatoria)",
+    "H_D1": "Descendencia biológica (G_ancestry > G_crit)",
+    "H_D2": "Descendencia informacional (G ≤ G_crit y M > M_crit)",
+    "H_D3": "Descendencia mixta (G > G_crit y M > M_crit)",
+    "H_I": "Origen biológico independiente",
+    "H_C": "Contaminación / panspermia / transferencia de información sin descendencia civilizatoria (ADN o archivos sin linaje cultural)",
+    "H_0": "Hipótesis nula genérica (independiente o contaminación)"
+  },
+  "scenarios": {
+    "A": {
+      "scenario": "A",
+      "name": "A — Conservador",
+      "n_realizations": 80,
+      "t_max_myr": 100.0,
+      "survival_rate": 0.2875,
+      "mean_final_N": 8.625,
+      "mean_final_E": 0.468428124999967,
+      "mean_final_G": 0.46291167340464023,
+      "mean_final_D": 1.264595625000045,
+      "mean_final_M": 0.20806585727905116,
+      "mean_final_I": 0.3007686867079589,
+      "mean_final_P_ret": 3.940798323721041e-07,
+      "frac_P_ret_gt_1e-3": 0.0,
+      "frac_P_ret_gt_1e-6": 0.125,
+      "descent_fractions": {
+        "H_D3": 0.4125,
+        "H_D1": 0.5875
+      },
+      "checkpoints": {
+        "10.0": {
+          "mean_G": 0.8129997040474807,
+          "mean_M": 0.38669427187547195,
+          "mean_P_ret": 2.6885578259337926e-06,
+          "frac_P_gt_1e-3": 0.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "25.0": {
+          "mean_G": 0.6610926032623263,
+          "mean_M": 0.23308637168626634,
+          "mean_P_ret": 2.5332890383716016e-06,
+          "frac_P_gt_1e-3": 0.0,
+          "class_fractions": {
+            "H_D3": 0.725,
+            "H_D1": 0.275
+          }
+        },
+        "50.0": {
+          "mean_G": 0.5321424661377081,
+          "mean_M": 0.209221147557981,
+          "mean_P_ret": 1.9494588583895756e-07,
+          "frac_P_gt_1e-3": 0.0,
+          "class_fractions": {
+            "H_D3": 0.4125,
+            "H_D1": 0.5875
+          }
+        },
+        "75.0": {
+          "mean_G": 0.4838535627776513,
+          "mean_M": 0.20809209496007303,
+          "mean_P_ret": 1.2884467757523212e-09,
+          "frac_P_gt_1e-3": 0.0,
+          "class_fractions": {
+            "H_D3": 0.4125,
+            "H_D1": 0.5875
+          }
+        },
+        "100.0": {
+          "mean_G": 0.4629247110737479,
+          "mean_M": 0.2080658407713623,
+          "mean_P_ret": 1.3105730840370687e-09,
+          "frac_P_gt_1e-3": 0.0,
+          "class_fractions": {
+            "H_D3": 0.4125,
+            "H_D1": 0.5875
+          }
+        }
+      }
+    },
+    "B": {
+      "scenario": "B",
+      "name": "B — Intermedio",
+      "n_realizations": 80,
+      "t_max_myr": 100.0,
+      "survival_rate": 0.9875,
+      "mean_final_N": 969.175,
+      "mean_final_E": 9.87793750000015,
+      "mean_final_G": 0.4788394105533861,
+      "mean_final_D": 0.7408453125000211,
+      "mean_final_M": 0.7127069258622166,
+      "mean_final_I": 7.028853439898796,
+      "mean_final_P_ret": 0.05766664151495708,
+      "frac_P_ret_gt_1e-3": 0.9875,
+      "frac_P_ret_gt_1e-6": 0.9875,
+      "descent_fractions": {
+        "H_D3": 1.0
+      },
+      "checkpoints": {
+        "10.0": {
+          "mean_G": 0.928611585891607,
+          "mean_M": 0.7504223174701845,
+          "mean_P_ret": 0.001810164100476471,
+          "frac_P_gt_1e-3": 0.95,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "25.0": {
+          "mean_G": 0.8311311473453056,
+          "mean_M": 0.6362060814612583,
+          "mean_P_ret": 0.007504323906116753,
+          "frac_P_gt_1e-3": 0.9875,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "50.0": {
+          "mean_G": 0.6911630559482406,
+          "mean_M": 0.6983869446551244,
+          "mean_P_ret": 0.026031032976655943,
+          "frac_P_gt_1e-3": 0.9875,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "75.0": {
+          "mean_G": 0.5751254325639389,
+          "mean_M": 0.7158228599131773,
+          "mean_P_ret": 0.04302486441116417,
+          "frac_P_gt_1e-3": 0.9875,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "100.0": {
+          "mean_G": 0.4789268639739025,
+          "mean_M": 0.7127100067748394,
+          "mean_P_ret": 0.05766664151495708,
+          "frac_P_gt_1e-3": 0.9875,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        }
+      }
+    },
+    "C": {
+      "scenario": "C",
+      "name": "C — Tecnológico",
+      "n_realizations": 80,
+      "t_max_myr": 100.0,
+      "survival_rate": 1.0,
+      "mean_final_N": 4947.8375,
+      "mean_final_E": 100.02500000000563,
+      "mean_final_G": 0.8186898175637356,
+      "mean_final_D": 0.20004999999998613,
+      "mean_final_M": 0.9993074380518017,
+      "mean_final_I": 17.186487262491283,
+      "mean_final_P_ret": 0.4997246445760785,
+      "frac_P_ret_gt_1e-3": 1.0,
+      "frac_P_ret_gt_1e-6": 1.0,
+      "descent_fractions": {
+        "H_D3": 1.0
+      },
+      "checkpoints": {
+        "10.0": {
+          "mean_G": 0.9801986733067553,
+          "mean_M": 0.9913984332090491,
+          "mean_P_ret": 0.0729424318130381,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "25.0": {
+          "mean_G": 0.9512294245007131,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.30972540270760984,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "50.0": {
+          "mean_G": 0.9048374180359622,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.5,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "75.0": {
+          "mean_G": 0.8607079764250651,
+          "mean_M": 0.9961942045175565,
+          "mean_P_ret": 0.49857282669408376,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "100.0": {
+          "mean_G": 0.8187307530779933,
+          "mean_M": 0.9992796179897935,
+          "mean_P_ret": 0.4997246445760785,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        }
+      }
+    },
+    "D": {
+      "scenario": "D",
+      "name": "D — Postbiológico",
+      "n_realizations": 80,
+      "t_max_myr": 100.0,
+      "survival_rate": 1.0,
+      "mean_final_N": 9990.975,
+      "mean_final_E": 200.05000000001127,
+      "mean_final_G": 0.9704382552342989,
+      "mean_final_D": 0.030007500000001526,
+      "mean_final_M": 1.0,
+      "mean_final_I": 41.64010680297139,
+      "mean_final_P_ret": 0.39999999999999997,
+      "frac_P_ret_gt_1e-3": 1.0,
+      "frac_P_ret_gt_1e-6": 1.0,
+      "descent_fractions": {
+        "H_D3": 1.0
+      },
+      "checkpoints": {
+        "10.0": {
+          "mean_G": 0.9970044955033728,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.2000000000000015,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "25.0": {
+          "mean_G": 0.9925280548191384,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.39999999999999997,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "50.0": {
+          "mean_G": 0.9851119396030621,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.39999999999999997,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "75.0": {
+          "mean_G": 0.9777512371933355,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.39999999999999997,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "100.0": {
+          "mean_G": 0.9704455335485067,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.39999999999999997,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        }
+      }
+    },
+    "E": {
+      "scenario": "E",
+      "name": "E — Retorno",
+      "n_realizations": 80,
+      "t_max_myr": 100.0,
+      "survival_rate": 1.0,
+      "mean_final_N": 9991.175,
+      "mean_final_E": 200.05000000001127,
+      "mean_final_G": 0.9704382552342989,
+      "mean_final_D": 0.030007500000001526,
+      "mean_final_M": 1.0,
+      "mean_final_I": 42.54632876161986,
+      "mean_final_P_ret": 0.7999999999999999,
+      "frac_P_ret_gt_1e-3": 1.0,
+      "frac_P_ret_gt_1e-6": 1.0,
+      "descent_fractions": {
+        "H_D3": 1.0
+      },
+      "checkpoints": {
+        "10.0": {
+          "mean_G": 0.9970044955033728,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.39843746430924004,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "25.0": {
+          "mean_G": 0.9925280548191384,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.7999999999999999,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "50.0": {
+          "mean_G": 0.9851119396030621,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.7999999999999999,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "75.0": {
+          "mean_G": 0.9777512371933355,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.7999999999999999,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        },
+        "100.0": {
+          "mean_G": 0.9704455335485067,
+          "mean_M": 1.0,
+          "mean_P_ret": 0.7999999999999999,
+          "frac_P_gt_1e-3": 1.0,
+          "class_fractions": {
+            "H_D3": 1.0
+          }
+        }
+      }
+    }
+  },
+  "phase_3d": {
+    "t_max_myr": 50.0,
+    "grid": [
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.0071039053842436965,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 1.0,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.005634637496019744,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.7293596792147408,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.002839017773974005,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.20425433789075587,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.006836990481322357,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.9904597553196628,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.005073514576399739,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.6831070218114766,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.0026059655085493337,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.19673162572515793,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.0035069337174334315,
+        "frac_P_gt_1e-3": 0.8,
+        "mean_M": 0.745768346499231,
+        "mean_G": 0.7097086882910726,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.00329480857044045,
+        "frac_P_gt_1e-3": 0.96,
+        "mean_M": 0.5211930863327172,
+        "mean_G": 0.6994754001537714,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.02,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.0019165382741008169,
+        "frac_P_gt_1e-3": 0.84,
+        "mean_M": 0.18102631807036057,
+        "mean_G": 0.6994155574416233,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 0.96,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.03545937327730273,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.9991269304587482,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.028803910451526492,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.7409882818944128,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.014241306771127392,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.20409646031293172,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.030165573445690822,
+        "frac_P_gt_1e-3": 0.96,
+        "mean_M": 0.9589853132557482,
+        "mean_G": 0.6988367711795281,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.026342688638523248,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.7014557651185568,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.012647854949566432,
+        "frac_P_gt_1e-3": 0.96,
+        "mean_M": 0.2074698167489399,
+        "mean_G": 0.6993259615128393,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.0212511430937617,
+        "frac_P_gt_1e-3": 0.88,
+        "mean_M": 0.8137546080961545,
+        "mean_G": 0.7050498803354354,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.012444946943785276,
+        "frac_P_gt_1e-3": 0.92,
+        "mean_M": 0.4231372648947399,
+        "mean_G": 0.6995053551882067,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.1,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.009364480910579507,
+        "frac_P_gt_1e-3": 0.88,
+        "mean_M": 0.17128764578754738,
+        "mean_G": 0.697933897991495,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 0.96,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.16920024530890157,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.98457113776732,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.1368267994674454,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.7200641295889713,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.07145664868125684,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.20479890260695047,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.16848952349002538,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.9938948091898322,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.12244910798981695,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.6636203840784962,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.06653172362323038,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.19510882543119026,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.10949619316468957,
+        "frac_P_gt_1e-3": 0.96,
+        "mean_M": 0.7805033599858813,
+        "mean_G": 0.6971785556540326,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.08786420223179131,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.5244574508117413,
+        "mean_G": 0.6963413741840663,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 0.5,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.042822479955117954,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.15060874884260034,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.2859999999999907,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 1.0,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.2301095754989667,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.7394914767691491,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.002,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.1155665686621073,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.20542953656868246,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.25470292428741476,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.969017941184897,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.2122186148512758,
+        "frac_P_gt_1e-3": 0.96,
+        "mean_M": 0.7143710144014017,
+        "mean_G": 0.6988073173951073,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.01,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.11022516857584262,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.20145449527430492,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.005,
+        "mean_P_ret": 0.16958139588139964,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.7968440121746134,
+        "mean_G": 0.698557850121541,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.04,
+        "mean_P_ret": 0.1101256985810364,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.47701922567792415,
+        "mean_G": 0.698895745060823,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      },
+      {
+        "v_e": 2.0,
+        "lambda_c0": 0.05,
+        "lambda_M": 0.15,
+        "mean_P_ret": 0.07619874923310264,
+        "frac_P_gt_1e-3": 1.0,
+        "mean_M": 0.15914693801555743,
+        "mean_G": 0.6870315936304127,
+        "frac_H_D2": 0.0,
+        "frac_H_D3": 1.0,
+        "frac_H_none": 0.0
+      }
+    ],
+    "thresholds": {
+      "P_ret_interesting": 1e-06,
+      "P_ret_plausible": 0.001,
+      "G_crit": 0.05,
+      "M_crit": 0.05,
+      "D_genetic_detectable": 3.0
+    },
+    "note": "Barrido reducido; frontera operacional P_ret>1e-3 y M>M_crit"
+  },
+  "bayes_framework": {
+    "evidence_vector": "E = (G_ancestry, A, I, T, C, M)",
+    "definition": "BF_{D/I} = P(E|H_D) / P(E|H_I)   con marginalización sobre parámetros desconocidos θ",
+    "hierarchical": "P(E|H) = ∫ P(E|θ,H) P(θ|H) dθ",
+    "hypotheses_compared": [
+      "H_D (y subtipos D1/D2/D3)",
+      "H_I",
+      "H_C"
+    ],
+    "independence_assumed": false,
+    "warning": "No se multiplica BF_i. No se aplica corrección arbitraria. H_C evita el salto 'ADN terrestre ⇒ H_D'.",
+    "thresholds_a_priori": {
+      "weak": 10,
+      "strong": 100,
+      "extraordinary": 1000
+    }
+  },
+  "falsification": {
+    "F1": "Filogenia inequívocamente independiente → H_D1 debilitada",
+    "F2": "Incompatibilidad temporal → ruta descartada",
+    "F3": "Requiere v > c sin mecanismo → versión descartada",
+    "F4": "Origen anterior a cualquier expansión humana → H_D rechazada",
+    "F5": "Bioquímica molecular incompatible → P(E|H_D1)→0",
+    "F6": "Ni G residual ni M ni archivos → ni D1 ni D2 ni D3",
+    "F7": "Evidencia compatible con H_C (contaminación) y no con linaje civilizatorio → H_D no apoyada"
+  },
+  "G_definition": {
+    "D_genetic": "distancia genética acumulada (adimensional)",
+    "G_ancestry": "exp(-D_genetic) — índice auxiliar, NO árbol filogenético real",
+    "warning": "Una tasa μ arbitraria no equivale a distancia filogenética real."
+  }
+}
