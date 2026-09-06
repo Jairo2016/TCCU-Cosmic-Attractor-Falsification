@@ -1,0 +1,105 @@
+{"lam": 0.5, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.4014, "alpha_max": 1.0, "N_ult": -50.0, "control": {"metodo": "DOP853", "estado": "ruptura", "N_s": -1.4014}, "control_ok": true}
+{"lam": 0.5, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.2513, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.5, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.2012, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.5, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.1011, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.5, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.001, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.5, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -0.951, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.5, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -0.9009, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.75, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.5015, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.75, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.3514, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.75, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.2513, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.75, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.1512, "alpha_max": 1.0, "N_ult": -50.0, "control": {"metodo": "DOP853", "estado": "ruptura", "N_s": -1.1512}, "control_ok": true}
+{"lam": 0.75, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.0511, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.75, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.001, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 0.75, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -0.951, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.0, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.7017, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.0, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.4515, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.0, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.4014, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.0, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.2513, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.0, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.1011, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.0, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.0511, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.0, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -0.951, "alpha_max": 1.0, "N_ult": -50.0, "control": {"metodo": "DOP853", "estado": "ruptura", "N_s": -0.951}, "control_ok": true}
+{"lam": 1.25, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -2.0521, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.25, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.7017, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.25, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.5516, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.25, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.4014, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.25, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.2513, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.25, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.1512, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.25, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.0511, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.5, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -2.6527, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.5, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -2.1021, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.5, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.9019, "alpha_max": 1.0, "N_ult": -50.0, "control": {"metodo": "DOP853", "estado": "ruptura", "N_s": -1.9019}, "control_ok": true}
+{"lam": 1.5, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.6517, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.5, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.4014, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.5, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.3013, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.5, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.1512, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.66, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -3.4034, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.66, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -2.5025, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.66, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -2.2523, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.66, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.9019, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.66, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.6016, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.66, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.5015, "alpha_max": 1.0, "N_ult": -50.0, "control": {"metodo": "DOP853", "estado": "ruptura", "N_s": -1.5015}, "control_ok": true}
+{"lam": 1.66, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.2513, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.75, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -6.1562, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.75, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -2.8529, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.75, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -2.6026, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.75, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -2.1522, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.75, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.8018, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.75, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.6517, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.75, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.3514, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.84, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -3.3534, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.84, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -3.3033, "alpha_max": 1.0, "N_ult": -50.0, "control": {"metodo": "DOP853", "estado": "ruptura", "N_s": -3.3033}, "control_ok": true}
+{"lam": 1.84, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -3.1031, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.84, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -2.5025, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.84, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -2.0521, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.84, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.8519, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 1.84, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.4515, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.0, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -2.7027, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.0, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -5.7057, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.0, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -3.9039, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.0, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -4.4545, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.0, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -3.0531, "alpha_max": 1.0, "N_ult": -50.0, "control": {"metodo": "DOP853", "estado": "ruptura", "N_s": -3.0531}, "control_ok": true}
+{"lam": 2.0, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -2.6026, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.0, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.9019, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.25, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -2.2523, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.25, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -2.8028, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.25, "w0": -0.2, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -3.14, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 2.25, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -4.2543, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.25, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -4.004, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.25, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -3.8539, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.25, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -6.8068, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.5, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -2.0521, "alpha_max": 1.0, "N_ult": -50.0, "control": {"metodo": "DOP853", "estado": "ruptura", "N_s": -2.0521}, "control_ok": true}
+{"lam": 2.5, "w0": -0.3, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -2.32, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 2.5, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -2.5025, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.5, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -2.8529, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.5, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -3.1031, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.5, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -3.1031, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 2.5, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -3.003, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 3.0, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.7518, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 3.0, "w0": -0.3, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.9, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 3.0, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -2.002, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 3.0, "w0": 0.0, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -2.145, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 3.0, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -2.3023, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 3.0, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -2.3524, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 3.0, "w0": 0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -2.3524, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 4.0, "w0": -0.5, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.45, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 4.0, "w0": -0.3, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.54, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 4.0, "w0": -0.2, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.584, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 4.0, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.7017, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 4.0, "w0": 0.2, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.724, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 4.0, "w0": 0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.7518, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 4.0, "w0": 0.5, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.79, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 5.0, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.3013, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 5.0, "w0": -0.3, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.36, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 5.0, "w0": -0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.4014, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 5.0, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.4515, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 5.0, "w0": 0.2, "metodo": "BDF", "estado": "ruptura", "N_s": -1.5015, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 5.0, "w0": 0.3, "metodo": "BDF", "estado": "integrador_Required_step_size_is_less_tha", "N_s": -1.5015, "alpha_max": 1.0, "N_ult": -49.3994}
+{"lam": 5.0, "w0": 0.5, "metodo": "BDF", "estado": "integrador_Required_step_size_is_less_tha", "N_s": -1.5516, "alpha_max": 1.0, "N_ult": -48.6987}
+{"lam": 6.0, "w0": -0.5, "metodo": "BDF", "estado": "ruptura", "N_s": -1.2012, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 6.0, "w0": -0.3, "metodo": "BDF", "estado": "ruptura", "N_s": -1.2513, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 6.0, "w0": -0.2, "metodo": "BDF", "estado": "integrador_Required_step_size_is_less_tha", "N_s": -1.3013, "alpha_max": 1.0, "N_ult": -47.4975}
+{"lam": 6.0, "w0": 0.0, "metodo": "BDF", "estado": "ruptura", "N_s": -1.3514, "alpha_max": 1.0, "N_ult": -50.0}
+{"lam": 6.0, "w0": 0.2, "metodo": "BDF", "estado": "integrador_Required_step_size_is_less_tha", "N_s": -1.3514, "alpha_max": 1.0, "N_ult": -44.6947}
+{"lam": 6.0, "w0": 0.3, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.35, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
+{"lam": 6.0, "w0": 0.5, "metodo": "BDF_diag", "estado": "ruptura", "N_s": -1.38, "alpha_max": 1.0, "N_ult": -50.0, "nota": "corregido de overflow exp (rtol 1e-10/DOP853)"}
